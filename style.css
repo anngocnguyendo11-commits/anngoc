@@ -4,52 +4,48 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, sans-serif;
-    background: #f4f6f9;
+    font-family: Arial;
 }
 header {
-    background: linear-gradient(135deg, #a564aa, #e6b1db);
-    color: rgb(255, 255, 255);
+    background: #6a5acd;
+    color: white;
     text-align: center;
-    padding: 40px 20px;
+    padding: 20px;
 }
 nav {
-    background: #65c8d5;
+    background: #4CAF50;
     text-align: center;
-    padding: 12px;
+    padding: 10px;
 }
 nav a {
     color: white;
-    margin: 0 15px;
+    margin: 15px;
     text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
 }
-nav a:hover {
-    color: #00c6ff;
+.container {
+    display: flex;
+}
+aside {
+    width: 25%;
+    background: #2196F3;
+    color: white;
+    padding: 20px;
 }
 main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    width: 75%;
+    background: #f4f4f4;
     padding: 20px;
 }
 .card {
-    background: white;
-    width: 300px;
-    margin: 15px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: 0.3s;
-}
-.card:hover {
-    transform: translateY(-5px);
+    background: #ff7f50;
+    margin: 10px;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
 }
 footer {
-    background: #111;
+    background: #6a5acd;
     color: white;
     text-align: center;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 15px;
 }
