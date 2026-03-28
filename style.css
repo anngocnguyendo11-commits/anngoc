@@ -8,13 +8,13 @@ body {
     background: #f4f6f9;
 }
 header {
-    background: linear-gradient(135deg, #007bff, #00c6ff);
-    color: white;
+    background: linear-gradient(135deg, #a564aa, #e6b1db);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 40px 20px;
 }
 nav {
-    background: #222;
+    background: #65c8d5;
     text-align: center;
     padding: 12px;
 }
